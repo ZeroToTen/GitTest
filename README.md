@@ -26,7 +26,8 @@ This is the study space for the SportsFriends project.
 
 2. Object Detection Evaluation  
     - Percentage of Detected Joints (PDJ) :sparkling_heart:
-       <p align="center"><img src="https://latex.codecogs.com/svg.latex?  PDJ =\sum_{i=1}^{n}\frac{1_{\left[d_{i} <= s*B\right]}}{n}" /></p>
+
+      <p align="center"><img width="30%" src="images/math_pdj.gif" /></p>
 
        where    
          di :Euclidean distance between  keypoints    
@@ -34,7 +35,7 @@ This is the study space for the SportsFriends project.
          B : base element   
 
     - Object Keypoint Similarity (OKS) :seedling:
-       <p align="center"> <img src="https://latex.codecogs.com/svg.latex? OKS =\sum_{i=1}^{n} exp(-\frac{d_{i}^2}{2s^2 k_{i}^2})" /></p>
+       <p align="center"><img width="30%" src="images/math_oks.gif" /></p>
 
        where  
         di: Euclidean distance between  keypoints     
